@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    width: 1200px;
+    margin:auto ;
+}
+
+:root{
+    --main-color : #676CDB;
+    --primary-font :  'Poppins', sans-serif;
+    --second-font : 'Playfair Display', serif;
+    --background-color: rgba(34, 42, 54, 0.95);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items:center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none ;
+}
+/* background section st */
+ #banner .row{
+    width: 1200px;
+}
+.banner .banner-cnt .row{
+    width: 100%;
+} 
+#banner{
+    background-image: url(../img/background.jpg);
+    height: 748px;
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+    background-size:cover;
+    
+}
+ #banner .banner-cnt .logo{
+    width: 25%;
+}
+.banner-cnt .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    line-height: 70px;
+    color: #ffff;
+    
+}
+#banner .banner-cnt .menu{
+    width: 50%;
+    text-align: center;
+}
+.banner-cnt .menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.banner-cnt .menu ul li a{
+    color: #ffff;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 20px;
+}
+#banner .banner-cnt .btn{
+    width: 25%;
+    text-align: end;
+}
+.banner-cnt .btn a{
+    font-family:var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffff;
+    line-height: 60px;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    padding: 10px 20px;
+}
+.bg-txt{
+    margin: 105px 0;
+}
+.banner-cnt .bg-txt h4{
+    color: #ffff;
+    font-size: 90px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: var(--second-font);
+}
+.banner-cnt .bg-txt h3{
+    color: #ffff;
+    font-size: 90px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: var(--second-font);
+}
+.bg-txt p{
+    text-align: justify;
+    width: 467px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    line-height: 35px;
+}
+.bg-txt span{
+    color: #ffff;
+}
+
+.bg-txt .btns{
+    font-family:var(--primary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    display: inline-block;
+    width: 203px;
+    height: 64px;
+    text-align: center;
+    margin: 25px 0;
+}
+.bg-txt .btns a{
+    color: #fff;
+}
+.bg-txt .cv span{
+    margin: 7px;
+}
+.bg-txt .cv{
+    font-family:var(--primary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    font-style: normal;
+    color: #fff;
+    margin: 30px;
+    transition: 0.3s;
+}
+.bg-txt .cv:hover{
+    text-decoration: revert;
+}
+
+/* background section ends */ 
+
+
+/* skills section st */
+#skill{
+    background-color: rgb(0, 0, 0);
+}
+#skill ul{
+    text-align: center;
+}
+#skill ul li{
+    display: inline-block;
+    width: 19.7%;
+    padding: 50px 22px;
+    
+}
+#skill ul li a {
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* skills section ends */
+
+
+/* experience work section st */
+#work{
+    background-color: #222A36;
+    height: 659px;
+}
+#work .experiences{
+    width: 28%;
+    padding: 100px 0;
+}
+#work .experiences h4{
+    font-size: 100px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-family: var(--second-font);
+}
+#work .experiences h3{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--second-font);
+    color: #fff;
+    line-height: 180%;
+}
+#work .exper{
+    width: 72%;
+
+}
+#work .exper p{
+    font-size: 40px;
+    font-family:var(--primary-font);
+    font-weight: 700;
+    color: #ffff;
+    line-height: 180%;
+    /* margin: 20px 0px; */
+    text-align: center;
+}
+#work .front-end{
+    width: 33.3%;
+    border: 1px solid #C4C4C4;;
+    width: 260px;
+    height: 295px;
+    background-color: #C4C4C4;
+    transition: 0.5s;
+    margin: 20px 0px 0px 25px;
+    margin-bottom: -50px;
+}
+#work .front-end h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: #222A36;
+     margin: 42px;
+    padding-top: 130px;
+    transition: 0.5s;
+}
+#work .front-end:hover{
+    background-color: #676CDB;
+    color: #fff;
+}
+#work .front-end:hover h2{
+    color: #fff;
+}
+/* experience work section ends */
+
+
+
+/* tastimonial section st */
+#tastimonial{
+    height: 650px;
+    background-color: #222a36e3;
+    padding: 105px 0;
+}
+#tastimonial .pic{
+    width: 35%;
+}
+#testimpnial .pic img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tastimonial .bio{
+    width: 45%;
+}
+
+#tastimonial .bio h2{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: var(--second-font);
+    color: #C4C4C4;
+    margin: 0px 0px -46px 0px;
+}
+.bio p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    line-height: 180%;
+    color: #fff;
+    padding: 0 45px 0 0;
+}
+.bio .bi{
+    font-size: 50px;
+    font-weight: 400;
+    color: #676CDB;
+    transition: 0.3s;
+    
+}
+
+.bio .bi:hover{
+    color: #676CDB80;
+}
+.bio .bie:hover{
+    color: #676CDB80;
+}
+.bio .bie{
+    font-size: 50px;
+    font-weight: 400;
+    color: #676CDB;
+    transition: 0.3s;
+}
+.bio span{
+    display: inline-block;
+    padding: 20px;
+}
+#tastimonial .exp{
+    width: 20%;
+}
+.exp p{
+    color: #C4C4C4;
+}
+.exp ul li h5{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: var(--second-font);
+}
+.exp ul{
+    margin: 0px 40px;
+}
+.exp ul li h4{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--second-font);
+    line-height: 120%;
+    color: #676CDB;
+    margin: 20px 0px;
+}
+
+/* tastimonial section ends */
+
+
+/* footer section st */
+footer{
+    height: 730px;
+    background-color: #000;
+}
+footer .connect{
+    width: 65%;
+}
+.connect h4{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    line-height: 120%;
+    color: #fff;
+}
+.connect {
+    margin: 100px 0;
+}
+.connect span a{
+    color: #ffff;
+    font-size: 26px;
+    margin: 20px;
+}
+footer .send{
+    width: 35%;
+    padding: 100px 0 0 0;
+}
+.send .from h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: var(--primary-font);
+}
+.send .from input{
+    width: 350px;
+    background-color: transparent;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    
+}
+.send .from input:hover{
+    border: 2px solid #C4C4C4;
+    
+    border-radius: 5px;
+}
+.send a{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    line-height: 120%;
+    color: #676CDB;
+}
+.send a span{
+    margin: 20px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    padding: 200px 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    line-height: 180%;
+}
+footer p span{
+    color: #fff;
+}
+/* footer section end */
